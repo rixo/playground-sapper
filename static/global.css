@@ -1,3 +1,12 @@
+/**
+ * If you're importing global styles in your sources files (cf.
+ * src/style/shared.scss, and src/route/_layout.svelte), you should probably not
+ * have another place for the same thing (global styles). So you should probably
+ * remove this file & corresponding <style> tag in template.html. But I'm
+ * leaving it here to show the different option, and that you even mix them
+ * together.
+ */
+
 body {
 	margin: 0;
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -14,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2em;
+	color: red;
 }
 
 a {
